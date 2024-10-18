@@ -85,7 +85,7 @@
       
       <button type="button" onclick="toggle()">My Color Palette</button>
         <table id="palette">
-          <tr>
+          <tr id="width">
             <td style="background-color: #1D1E2C;"></td>
             <td style="background-color: #816180;"></td>
             <td style="background-color: #B14E98;"></td>
@@ -98,11 +98,12 @@
         function toggle()
         {
           var x = document.getElementById("palette");
+          var y = document.getElementById("width");
           if (x.style.display === "none") 
           {
             x.style.display = "block";
             <!--Assistance from Summers-->
-            x.style.width = 50px;
+            y.style.width = 50px;
           } 
           else 
           {
