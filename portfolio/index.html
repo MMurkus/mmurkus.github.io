@@ -24,6 +24,11 @@
       a:hover, a:active{
         background-color:#893D76;
       }
+
+      table{
+        border: 3px solid;
+        width: 50%;
+      }
     </style>
   </head>
   
@@ -75,7 +80,7 @@
       <br>
       <br>
 
-      <button type="button" onclick="document.getElementById('palette').innerHTML = Date()">My Color Palette</button>
+      <button type="button" onclick=toggle()">My Color Palette</button>
         <table id="palette">
           <tr>
             <td style="background-color: #1D1E2C;"></td>
@@ -84,6 +89,16 @@
             <td style="background-color: #DDBDD5;"></td>
             <td style="background-color: #F7EBEC;"></td>
         </table>
+
+      <script>
+        function toggle(){
+          var x = document.getElementById("palette");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+      </script>
     </footer>
   </body>
   
