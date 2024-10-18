@@ -2,6 +2,10 @@
         background-color:#1D1E2C;
       }
 
+      main {
+        background-color:#816180;
+      }
+
       a:link, a:visited{
          background-color:#B14E98;
          color:#F7EBEC;
