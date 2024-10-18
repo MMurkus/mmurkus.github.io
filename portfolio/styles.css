@@ -1,1 +1,29 @@
+ header, footer, nav, body {
+        background-color:#1D1E2C;
+      }
 
+      a:link, a:visited{
+         background-color:#B14E98;
+         color:#F7EBEC;
+         padding: 10px 15px;
+         text-align: center;
+         border-radius: 15px;
+         text-decoration: none;
+      }
+
+      a:hover, a:active{
+        background-color:#893D76;
+      }
+
+      table{
+        border: 3px solid;
+        /*width: 50%;*/
+      }
+
+      tr{
+        height: 50px;
+      }
+
+      td{
+        width: 50px;
+      }
