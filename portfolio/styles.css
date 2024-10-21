@@ -6,6 +6,10 @@
         background-color:#816180;
       }
 
+      a.icon{
+         margin-top: 5px;
+      }
+
       a:link, a:visited{
          background-color:#B14E98;
          color:#F7EBEC;
