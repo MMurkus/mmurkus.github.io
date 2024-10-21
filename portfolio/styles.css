@@ -30,11 +30,11 @@
 
       tr{
         height: 50px;
+        background-color: #000000;
       }
 
       td{
         width: 50px;
-        background-color: #000000;
       }
 
       h1 {
