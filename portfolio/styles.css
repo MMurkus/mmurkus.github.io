@@ -24,7 +24,7 @@
       }
 
       table{
-        border: 3px solid;
+        border: 0.5px solid #ffffff;
         /*width: 50%;*/
       }
 
@@ -34,6 +34,7 @@
 
       td{
         width: 50px;
+        background-color: #000000;
       }
 
       h1 {
