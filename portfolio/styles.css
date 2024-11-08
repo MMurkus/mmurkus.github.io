@@ -49,8 +49,8 @@
       h1 {
         font-size:60px;
         color:#F7EBEC;
+        text-shadow: 2px 2px 10px #DDBDD5;
         text-align: center;
-        text-shadow: 2px 2px 10px #000000;
       }
 
        h2 {
