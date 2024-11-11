@@ -1,9 +1,10 @@
-      header, footer {
+      header, footer, body {
        background-color:#023020;
       }
 
       nav {
        background-color:#1D1E2C;
+       color: #50C878;
        text-align: right;
       }
 
