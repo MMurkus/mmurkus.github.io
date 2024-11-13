@@ -49,10 +49,12 @@
         color:#44A664;
         text-shadow: 4px 4px #382803;
         text-align: center;
+        font-family: Helvetica, Verdana, sans-serif;
       }
 
        h2 {
         text-align: center;
+        font-family: Garamond, serif;
        }
 
       p.content{
