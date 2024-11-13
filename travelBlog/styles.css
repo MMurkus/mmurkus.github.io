@@ -3,7 +3,7 @@
       }
 
       nav {
-       background-color:#1D1E2C;
+       background-color:#023020;
        color: #50C878;
        text-align: right;
       }
@@ -17,6 +17,7 @@
       }*//
 
       a:link, a:visited{
+         background-color:#023020;
          color:#50C878;
          text-decoration: none;
       }
