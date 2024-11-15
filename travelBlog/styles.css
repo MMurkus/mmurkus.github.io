@@ -25,20 +25,6 @@
         color: #fff;
       }
 
-      table{
-        border: 0.5px solid #ffffff;
-        width: 250px;
-      }
-
-      tr{
-        height: 50px;
-        background-color: #000000;
-      }
-
-      td{
-        width: 50px;
-      }
-
       h1 {
         font-size:50px;
         font-weight: normal;
