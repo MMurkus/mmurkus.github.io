@@ -68,16 +68,15 @@
            <!--input type is either a submit or a button, can't be both-->
           <input type="button" value="Submit" onclick="thankUser()">
           <p id="thank"></p>
-        </form>
-    </footer>
 
-        <script>
+          <script>
           function thankUser() {
           let x = document.getElementById("name");
           let text = "Thanks, " + x + "! I'll get back to you soon!";
           document.getElementById("thank").innerHTML = text;
         </script>
-          
+        </form>
+    </footer>
   </body>
   
   
