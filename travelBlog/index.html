@@ -59,23 +59,24 @@
     
     <footer>
         <br>
-        <form>
+        <form onsubmit= "return thankUser()">
           <label>Full Name:</label><br>
           <input id="name"><br>
           <label>Email Address:</label><br>
           <input><br><br>
           <textarea id="w3review" name="w3review" rows="10" cols="50">Have a suggestion in mind? Question about equipment? Just wanna chat? Whatever the reason, type it in here!</textarea><br><br>
            <!--input type is either a submit or a button, can't be both-->
-          <input type="button" value="Submit" onclick="thankUser()">
+          <input type="submit" value="Submit">
           <p id="thank"></p>
-
-          <script>
+        </form>
+      
+        <script>
           function thankUser() {
           let x = document.getElementById("name");
           let text = "Thanks, " + x + "! I'll get back to you soon!";
           document.getElementById("thank").innerHTML = text;
         </script>
-        </form>
+      
     </footer>
   </body>
   
