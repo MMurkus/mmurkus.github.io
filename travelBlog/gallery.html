@@ -55,7 +55,7 @@
           <textarea id="w3review" name="w3review" rows="10" cols="50">Have a suggestion in mind? Question about equipment? Just wanna chat? Whatever the reason, type it in here!</textarea><br><br>
            <!--input type is either a submit or a button, can't be both-->
           <!--<input type="submit" value="Submit">-->
-          <button type="button" onclick="thankUser()">Submit</button>
+          <button id="hide" type="button" onclick="thankUser()">Submit</button>
           <p id="thank" style="color: #fff;"></p>
         </form>
       
@@ -63,6 +63,7 @@
           function thankUser() {
           let x = document.getElementById("name");
           let y = document.getElementById("email");
+          let z = document.getElementById("hide");
           let text;
             if (x == " " || y == " ") 
             {
@@ -72,6 +73,7 @@
             
             else
             {
+              z.style.display = none;
               text = "Thanks for responding, I'll get back to you soon!"
               <!-- alert("Thanks for responding, I'll get back to you soon!"); -->
               document.getElementById("thank").innerHTML = text;
