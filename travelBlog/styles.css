@@ -51,10 +51,16 @@
          font-family: Arial, sans-serif;
         }
 
-      .post{
+      .post1{
         background-color: #50C878;
         border: 1px solid #50C878;
         border-radius:15px 50px;
+      }
+
+      .post2{
+        background-color: #50C878;
+        border: 1px solid #50C878;
+        border-radius:50px 15px;
       }
 
       .content{
