@@ -92,39 +92,42 @@
     <br>
     
     <footer>
-        <small><a href="mailto:mark.metcalf08@outlook.com">Contact Me!</a></small>
-        <br>
-        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">What's the Date and Time?</button>
-        <p id="demo" style= "color:#F7EBEC;"></p>
+      <div class="classContainer">
+        <div>
+          <nav><a href="mailto:mark.metcalf08@outlook.com">Contact Me!</a> &nbsp; <small><a class="noButton" href="https://www.linkedin.com/in/m-metcalf/" target="_blank"><img class="icon" src = "pictures/linkedinIcon.png" alt="My LinkedIn" width = "20" height = "20"></a></small></b></nav>
+        <!--<small><a href="mailto:mark.metcalf08@outlook.com">Contact Me!</a></small>-->
+        <!--<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">What's the Date and Time?</button>-->
+        <!--<p id="demo" style= "color:#F7EBEC;"></p>-->
+        </div>
 
-      <br>
-      <br>
-      
-      <button type="button" onclick="toggle()">My Color Palette</button>
-        <table id="palette">
-          <tr>
-            <td style="background-color: #1D1E2C;"></td>
-            <td style="background-color: #816180;"></td>
-            <td style="background-color: #B14E98;"></td>
-            <td style="background-color: #DDBDD5;"></td>
-            <td style="background-color: #F7EBEC;"></td>
-          </tr>
-        </table>
+        <div>
+          <button type="button" onclick="toggle()">My Color Palette</button>
+            <table id="palette">
+              <tr>
+                <td style="background-color: #1D1E2C;"></td>
+                <td style="background-color: #816180;"></td>
+                <td style="background-color: #B14E98;"></td>
+                <td style="background-color: #DDBDD5;"></td>
+                <td style="background-color: #F7EBEC;"></td>
+              </tr>
+            </table>
 
-        <script>
-        function toggle()
-        {
-          var x = document.getElementById("palette");
-          if (x.style.display === "none") 
-          {
-            x.style.display = "block";
-          } 
-          else 
-          {
-            x.style.display = "none";
-          }
-        }
-      </script>
+            <script>
+            function toggle()
+            {
+              var x = document.getElementById("palette");
+              if (x.style.display === "none") 
+              {
+                x.style.display = "block";
+              }   
+              else 
+              {
+                x.style.display = "none";
+              }
+            }
+            </script>
+        </div>
+      </div>
     </footer>
   </body>
   
