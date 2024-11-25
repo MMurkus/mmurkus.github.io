@@ -83,3 +83,13 @@
        width:45%;  
        float:left;
      }
+
+      @media screen and (max-width: 360px) {
+            img{
+                width: 100px;
+                height: 200px;
+            }
+            body{
+                background-color: yellow;
+            }
+      }
