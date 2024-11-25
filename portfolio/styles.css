@@ -64,11 +64,11 @@
         text-align: left;
       }
 
-      .center {
+      .centerImage {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        border: 1px solid black;
       }
 
 
