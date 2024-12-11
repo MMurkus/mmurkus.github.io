@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+      <link rel="stylesheet" href="rpsStyles.css">
+      <script src="rps.js"></script>
+      <script>
+        document.getElementById('result').innerHTML
+      </script>
+      <title>Rock, Paper, Scissors</title>
+      <meta name="viewport" content="width=device-width initial-scale=1.0">
+    </head>
+
+    <body>
+       <h1 style="text-align:center;">Rock, Paper, Scissors</h1>
+       <button style="background-color: rgb(159, 159, 159);"type="button" onclick="playRound('Rock')">Rock</button> &nbsp; &nbsp; &nbsp;
+       <button style="background-color: rgb(255, 255, 255);" type="button" onclick="playRound('Paper')">Paper</button> &nbsp; &nbsp; &nbsp;
+       <button style="background-color: rgb(235, 103, 80);" type="button" onclick="playRound('Scissors')">Scissors</button><br> &nbsp; &nbsp; &nbsp;
+       <hr>
+
+            <div>You Chose: </div>
+            <b><div id='userChoice'></div></b><br>
+
+            <div>Computer Chose: </div>
+            <b><div id='computerChoice'></div></b><br>
+
+        <div id='result'></div>
+        <!--<br><br>
+
+        <div>
+          <p>Your Score:</p>
+          <p id='userScore'></p><br>
+
+          <p>Computer Score:</p>
+          <p id='computerScore'></p>
+        </div>-->
+    </body>
+</html>
